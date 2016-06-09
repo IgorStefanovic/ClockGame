@@ -140,9 +140,9 @@ public class MainActivity extends Activity implements ServiceConnection{
 
     void setStatisticsLose(Button b) {
         if(b.equals(player1lose)) {
-            res = "Black player won";
+            res = "Black Player Won";
         } else if(b.equals(player2lose)) {
-            res = "White player won";
+            res = "White Player Won";
         }
 
         getTime();
