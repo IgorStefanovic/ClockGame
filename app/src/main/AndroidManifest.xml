@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rtrk.pnrs.clockgame" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/clock_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="rtrk.pnrs.statistics.Statistics" />
+        <activity android:name=".Setup" />
+
+        <service
+            android:name=".GameClockService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <provider
+            android:name="rtrk.pnrs.database.GameClockProvider"
+            android:authorities="rtrk.pnrs.database"
+            android:enabled="true"
+            android:exported="true" >
+        </provider>
+    </application>
+
+</manifest>

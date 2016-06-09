@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ClockGame</string>
+    <string name="lose">LOSE</string>
+    <string name="draw">DRAW</string>
+    <string name="win">WIN</string>
+    <string name="start">Start</string>
+    <string name="setup">Setup</string>
+    <string name="statistics">Statistics</string>
+    <string name="draw_b">Draw</string>
+    <string name="lose_b">Lose</string>
+    <string name="white_player">White Player</string>
+    <string name="black_player">Black Player</string>
+    <string name="backSetup">This Is Setup Activity</string>
+    <string name="backStatistics">This Is Statistics Activity</string>
+    <string name="black_win">Black Player Win</string>
+    <string name="white_win">White Player Win</string>
+</resources>
